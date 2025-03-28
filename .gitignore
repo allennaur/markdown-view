@@ -1,0 +1,86 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 依赖目录
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+
+# 构建输出
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+public/dist/
+
+# 运行时数据
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 测试覆盖率目录
+coverage/
+.nyc_output/
+lib-cov/
+
+# IDE和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.vs/
+*.~vsd*
+.history/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 缓存
+.cache/
+.sass-cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 不需要忽略的文件
+!.gitkeep
+!.github/
